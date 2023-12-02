@@ -4,7 +4,7 @@
 <body>
   <h1>APGWD-VR-Internship Application</h1>
   <h2>Overview</h2>
-  <p>Welcome to the APGWD Ground Water Monitoring application! This application is designed based on the MERN stack to help employees of APGWD from various districts of Andhra Pradesh update the groundwater records. The employee login is used to update the value that is detected on site, and then it sends a request to the district director of that particular district, who verifies whether the change is valid or not. If it is valid, he will approve the change, which will be completely updated in the MongoDB database. Also, the timeline graph of that region or a district is displayed. This application provides the necessary tools and features to streamline your workflow.<br/> Please find the site link below: 
+  <p>Welcome to the APGWD Ground Water Monitoring application This application is designed based on the MERN stack to help employees of APGWD from various districts of Andhra Pradesh update the groundwater records. The employee login is used to update the value that is detected on site, and then it sends a request to the district director of that particular district, who verifies whether the change is valid or not. If it is valid, he will approve the change, which will be completely updated in the MongoDB database. Also, the timeline graph of that region or a district is displayed. This application provides the necessary tools and features to streamline your workflow.<br/> Please find the site link below: 
 </p>
   <img src = "TrackUp.gif" alt = "Track Up" />
   <h2>Features</h2>
