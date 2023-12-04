@@ -2,11 +2,11 @@ import React from 'react'
 import Login from '../pages/Login';
 
 
-function Navbar() {
+function Navibar() {
     
 
         return (
-    <div className= "nav">
+    <div className= "navi">
         <div class="container-fluid">
 
             <div className='Logos'> 
@@ -51,6 +51,7 @@ function Navbar() {
 
     </div>
   )
+  
 }
 
-export default Navbar
+export default Navibar

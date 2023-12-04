@@ -1,125 +1,125 @@
+import React from 'react';
+import { MDBIcon } from 'mdb-react-ui-kit';
 
-import React from 'react'
 
-function Footer() {
+export default function Footer() {
   return (
-    <div>
-        <div class="container my-5">
-        <footer
-          class="text-center text-lg-start text-white"
-          style="background-color: #929fba"
-        >
-    
-    <div class="container p-4 pb-0">
-      <section class="">
-        <div class="row">
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">
-              Company name
-            </h6>
-            <p>
-              Here you can use rows and columns to organize your footer
-              content. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit.
-            </p>
-          </div>
-          
-          <hr class="w-100 clearfix d-md-none" />
+    <footer className='footer'>
+      <section className='social-section'>
+        <div className='me-5 d-none d-lg-block'>
+          <span>Get connected with us on social networks:</span>
+        </div>
 
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-            <p>
-              <a class="text-white">MDBootstrap</a>
-            </p>
-            <p>
-              <a class="text-white">MDWordPress</a>
-            </p>
-            <p>
-              <a class="text-white">BrandFlow</a>
-            </p>
-            <p>
-              <a class="text-white">Bootstrap Angular</a>
-            </p>
-          </div>
-         
-          <hr class="w-100 clearfix d-md-none" />
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-            <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-          </div>
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
-
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #3b5998"
-               href="#!"
-               role="button"
-               ><i class="fab fa-facebook-f"></i
-              ></a>
-
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #55acee"
-               href="#!"
-               role="button"
-               ><i class="fab fa-twitter"></i
-              ></a>
-
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #dd4b39"
-               href="#!"
-               role="button"
-               ><i class="fab fa-google"></i
-              ></a>
-
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #ac2bac"
-               href="#!"
-               role="button"
-               ><i class="fab fa-instagram"></i
-              ></a>
-
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #0082ca"
-               href="#!"
-               role="button"
-               ><i class="fab fa-linkedin-in"></i
-              ></a>
-            <a
-               class="btn btn-primary btn-floating m-1"
-               style="background-color: #333333"
-               href="#!"
-               role="button"
-               ><i class="fab fa-github"></i
-              ></a>
-          </div>
+        <div className='social-links'>
+          <a href='' className='text-reset'>
+            <MDBIcon fab icon='facebook-f' />
+          </a>
+          <a href='' className='text-reset'>
+            <MDBIcon fab icon='twitter' />
+          </a>
+          <a href='' className='text-reset'>
+            <MDBIcon fab icon='google' />
+          </a>
+          <a href='' className='text-reset'>
+            <MDBIcon fab icon='instagram' />
+          </a>
+          <a href='' className='text-reset'>
+            <MDBIcon fab icon='linkedin' />
+          </a>
+          <a href='' className='text-reset'>
+            <MDBIcon fab icon='github' />
+          </a>
         </div>
       </section>
-    </div>
 
-    <div
-         class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
-         >
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/"
-         >MDBootstrap.com</a
-        >
-    </div>
-  </footer>
-</div>
-    </div>
-  )
+      <section className='footer-content'>
+        <div className='column'>
+          <h6 className='text-uppercase'><h1 className='Hightt'>Andhra Pradesh</h1>Ground Water Department</h6>
+          <p>
+          The Ground Water and Water Audit Department was founded in 1971 as the <br/>Ground Water Department and 
+          renamed Ground Water and Water Audit Department in 2016. <br/> The Department is a multidisciplinary institution with experts 
+           in geophysics, hydrometeorology, and agronomy.
+          </p>
+        </div>
+
+        <div className='column'>
+          <h6 className='text-uppercase'>Products</h6>
+          <p>
+            <a href='#!' className='text-reset'>
+              Ground Water Levels
+            </a>
+          </p>
+          <p>
+            <a href='#!' className='text-reset'>
+            GEC State Summary
+            </a>
+          </p>
+          <p>
+            <a href='#!' className='text-reset'>
+            Trend Graphs
+            </a>
+          </p>
+          <p>
+            <a href='#!' className='text-reset'>
+              Laravel
+            </a>
+          </p>
+        </div>
+
+        <div className='column'>
+          <h6 className='text-uppercase'>Useful links</h6>
+          <p>
+            <a href='https://apsgwd.ap.gov.in/home' className='text-reset'>
+              Official Site
+            </a>
+          </p>
+          <p>
+            <a href='#!' className='text-reset'>
+              Developers
+            </a>
+          </p>
+          <p>
+            <a href='#!' className='text-reset'>
+              About US
+            </a>
+          </p>
+          <p>
+            <a href='#!' className='text-reset'>
+              Contact
+            </a>
+          </p>
+        </div>
+
+        <div className='column'>
+          <h6 className='text-uppercase'>Contact</h6>
+          <p>
+            <MDBIcon icon='phone' className='me-3' /> &nbsp; +91 08662574673
+          </p>
+
+          <p>
+            <MDBIcon icon='envelope' className='me-3' /> &nbsp;
+            director-apsgwd@rediffmail.com
+          </p>
+          
+          <p>
+            <MDBIcon icon='home' className='me-2' /> &nbsp;
+            4th & 5th Floor, Vysya Bhavan, <br/>Namboori Gopalrao Street<br/> Vijayawada-520013
+          </p>
+          
+          
+          <p>
+          Monday - Friday: 10:00 AM to 5:30 PM
+          </p>
+        </div>
+      </section>
+      
+
+      <div className='copyright-section'>
+        © 2023 Copyright:
+        &nbsp;<a className='text-reset fw-bold' href='#'>
+           VRSEC
+        </a>
+      </div>
+    </footer>
+  );
 }
-
-export default Footer

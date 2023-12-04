@@ -6,8 +6,9 @@ function PublicAcc() {
 
 <div id='product' class="s006">
       <form>
+
         <fieldset>
-        <legend>Search for the Water Bodies </legend>
+        <legend>Search for the Districts </legend>
         <div class="inner-form">
         <div class="input-field">
 <button class="btn-search" type="button">
@@ -21,11 +22,11 @@ function PublicAcc() {
 </div>
 </div>
 <div class="suggestion-wrap">
-<span>Dwaraka</span>
-<span>Lake Vembinad</span>
-<span>Mumbai</span>
-<span>Nachugunta </span>
-<span>Surat</span>
+<span>NTR District</span>
+<span>EAST GODAVARI</span>
+<span>PALNADU</span>
+<span>YSR KADAPA</span>
+<span>NANDYAL</span>
 
 </div>
 </fieldset>
@@ -34,7 +35,6 @@ function PublicAcc() {
 
 
 </div>
-
 
       <div>
       <svg class="waves" xmlns="http://www.w3.org/2000/svg" 

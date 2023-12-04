@@ -1,4 +1,5 @@
 
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
@@ -14,7 +15,6 @@
   scroll-behavior: smooth;
   margin: 0;
   border: 0;
-  overflow-x: hidden ;
 }
 
 
@@ -58,6 +58,10 @@ li a:hover {
   margin: 10px;
 }
 
+.text-uppercase {
+  font-size: 20px;
+  color: #04AA6D;
+}
 .page-title{
   padding-left: 230px;
   padding-top: 10px;
@@ -124,7 +128,7 @@ li a:hover {
 
 .viswa-hero-section {
 	height: 100%;
-	width: 100%;
+	
   top:0px;
   margin-top: 5%;
   margin-left: 10%;
@@ -153,6 +157,10 @@ li a:hover {
   /* color: #008778; */
 	margin: 0 0 45px;
   overflow-y: hidden;
+  background: -webkit-linear-gradient(45deg,#003480, #04AA6D);
+  background-clip:inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero-text h4 {
@@ -216,7 +224,7 @@ li a:hover {
 	/* padding-left: 10px; */
 	width: 150px;
 	height: 140%;
-	background: linear-gradient(#353A3C, #000);
+	background: linear-gradient(#008778,#003480,#042c71, #04AA6D);
 	animation: animate 4s linear infinite;
 }
 @keyframes animate {
@@ -243,7 +251,7 @@ li a:hover {
   /* background-color:#008778; */
   background-image: linear-gradient(to bottom right,rgba(25, 84, 123, 1),rgb(0, 135, 120,1));
   color: white;
-  display: flex;
+  
   justify-content: center;
   position: absolute;
   width: 100%;
@@ -319,11 +327,13 @@ margin-bottom: 17px;
 .s006 form .inner-form .input-field {
   margin-bottom: 20px;
   height: 50px;
+  
 }
 .s006 form .inner-form .input-field {
 height: 70px;
 width: 100%;
 position: relative;
+
 }
 
 .s006 form .inner-form .input-field .btn-search {
@@ -332,6 +342,8 @@ display: -ms-flexbox;
 display: flex;
 -ms-flex-align: center;
 align-items: center;
+
+margin-left: 92%;
 position: absolute;
 left: 0;
 height: 100%;
@@ -353,6 +365,7 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  border-radius: 20px;
 }
 
 button {
@@ -392,3 +405,179 @@ img.avatar {
 span.psw {
   float: right;
   padding-top: 16px;
+}
+
+
+/* Footer.css */
+
+.footer {
+  margin-top: 39%;
+  background-color: light;
+  text-align: center;
+  color: #6c757d;
+}
+
+.social-section {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-left: 4.2rem;
+  padding-right: 2rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.social-section span {
+  margin-right: 5rem;
+}
+
+.social-links a {
+  margin-right: 1rem;
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #000;
+}
+
+.footer-content {
+  text-align: center;
+  text-align: md-start;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  margin-bottom: 2rem;
+}
+
+.column h6 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.Hightt{
+  color: #003480;
+  font-size: 20px;
+}
+.column p {
+  margin-bottom: 1rem;
+  /* Set a specific height for the paragraph container */
+  max-height:100px; /* Adjust this value based on your preference */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5; /* Adjust the line height for better readability */
+}
+
+.copyright-section {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+
+.s006 form .suggestion-wrap {
+  padding: 0 15px;
+}
+
+
+.s006 form .suggestion-wrap span {
+  font-size: 14px;
+  font-family: helvetica,sans-serif;
+  display: inline-block;
+  background: rgba(0,0,0,.6);
+  padding: 0 15px;
+  line-height: 32px;
+  color: #fff;
+  border-radius: 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+.s006 {
+  min-height: 49vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: poppins,sans-serif;
+  background: url(../images/Searchs_006.png);
+  background-size: cover;
+  background-position: center center;
+  padding: 15px;
+}
+
+.s006 form {
+  width: 100%;
+  max-width: 790px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  margin-block-end: 1em;
+  
+}
+
+
+
+.s006 form .inner-form .input-field .btn-search svg {
+  fill: #ccc;
+  width: 30px;
+  height: 30px;
+  transition: all .2s ease-out,color .2s ease-out;
+}
+
+
+.waves {
+  position:relative;
+  width: 100%;
+  height:15vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+  overflow: hidden;
+}
+.parallax{
+  overflow: hidden;
+}
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+  overflow: hidden;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+  overflow: hidden;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+  overflow: hidden;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+  overflow: hidden;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+  overflow: hidden;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+
+
