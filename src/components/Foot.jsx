@@ -1,9 +1,9 @@
 import React from "react";
 import { MDBIcon } from "mdb-react-ui-kit";
 
-export default function Footer() {
+export default function Foot() {
   return (
-    <footer className="footer">
+    <footer className="footer1">
       <section className="social-section">
         <div className="me-5 d-none d-lg-block">
           <span>Get connected with us on social networks:</span>

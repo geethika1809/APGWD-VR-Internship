@@ -1,29 +1,25 @@
-import { useState } from 'react'
-import './App.css'
-import {BrowserRouter, Routes, Route} from "react-router-dom"
-import PublicAcc from './components/PublicAcc'
-import Navibar from './components/Navibar'
-import Herosec from './components/Herosec'
-import Footer from './components/Footer'
-import Login from './pages/Login'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Mainn from "./Mainn";
+import Signup from "./components/Auth/Signup";
+import Login from "./components/Auth/Login";
+import Welcome from "./pages/Welcome";
+import Admin from "./pages/Admin";
+import FormDetails from "./pages/FormDetails";
 
 function App() {
-    return (
-      <BrowserRouter>
-    <div>
-    <Navibar/>
-    <Herosec/>
-    <PublicAcc/>
-    <Footer/>
-    </div>
 
-    <Routes>
-        <Route path='/Login' element = {<Login/>}></Route>
-    </Routes>
-        
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Mainn />}></Route>
+        <Route path="/Login" element={<Login />}></Route>
+        <Route path="/Signup" element={<Signup />}></Route>
+        <Route path="/employee" element={<Welcome />} />
+        <Route path="/admin" element={<Admin />} />
+        <Route path="/filldetails" element= {<FormDetails/>} />
+      </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
-
+export default App;
